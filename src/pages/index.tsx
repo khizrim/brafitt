@@ -4,6 +4,7 @@ import Meta from '../components/Meta/Meta';
 import Layout from '../components/Layout/Layout';
 
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 
 const IndexPage = () => {
   return (
@@ -16,6 +17,7 @@ const IndexPage = () => {
           Makhachkala, Russia! See you soon! &#128521;
         </p>
       </Layout>
+      <Footer />
     </>
   );
 };
