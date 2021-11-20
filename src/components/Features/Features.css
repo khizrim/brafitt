@@ -1,0 +1,6 @@
+.features {
+  @apply flex flex-col text-center items-center;
+}
+
+.features__title {
+}
