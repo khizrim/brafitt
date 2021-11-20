@@ -8,4 +8,12 @@
   h1 {
     @apply text-lg text-center md:text-xl lg:text-xxl lg:text-left;
   }
+
+  h2 {
+    @apply text-md mb-6 md:text-lg;
+  }
+
+  p {
+    @apply text-base text-gray md:text-main;
+  }
 }
