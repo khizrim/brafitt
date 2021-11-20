@@ -10,7 +10,7 @@
   }
 
   h2 {
-    @apply text-md mb-6 md:text-lg;
+    @apply text-lg mb-6;
   }
 
   p {
