@@ -1,5 +1,5 @@
 .button {
-  @apply border-2 h-14 rounded-sm w-full sm:w-auto sm:px-9;
+  @apply border-2 h-14 rounded-xl w-full sm:w-auto sm:px-9;
 }
 
 .button__type_primary {
