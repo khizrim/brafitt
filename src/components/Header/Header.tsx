@@ -23,12 +23,14 @@ const Header = () => {
           />
         </Link>
         <div className="header__link header__link_side_left">
-          <ExternalLink url="tel:8-989-466-29-29" text="+7 989 466 29 29" />
-          <PhoneIcon className="header__link-icon" />
+          <ExternalLink iconPosition={'start'} url="tel:8-989-466-29-29" text="+7 989 466 29 29">
+            <PhoneIcon className="header__link-icon" />
+          </ExternalLink>
         </div>
         <div className="header__link header__link_side_right">
-          <PencilAltIcon className="header__link-icon" />
-          <ExternalLink url="https://google.com" text="Записаться онлайн" />
+          <ExternalLink iconPosition={'end'} url="https://google.com" text="Записаться онлайн">
+            <PencilAltIcon className="header__link-icon" />
+          </ExternalLink>
         </div>
       </div>
     </header>

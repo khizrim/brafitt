@@ -1,9 +1,22 @@
 import React from 'react';
 
-const ExternalLink = ({ url, text }: ExternalLinkProps) => {
+const ExternalLink = ({
+  url,
+  text,
+  iconPosition,
+  children,
+}: ExternalLinkProps) => {
   return (
-    <a href={url} target="_blank" rel="noreferrer">
+    <a
+      className={`flex items-center gap-2 ${
+        iconPosition && iconPosition === 'end' ? 'flex-row-reverse' : 'flex-row'
+      }`}
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+    >
       {text}
+      {children}
     </a>
   );
 };
@@ -11,6 +24,8 @@ const ExternalLink = ({ url, text }: ExternalLinkProps) => {
 type ExternalLinkProps = {
   url: string;
   text: string;
+  iconPosition?: string;
+  children?: React.ReactNode;
 };
 
 export default ExternalLink;
