@@ -5,6 +5,7 @@ import Layout from '../components/Layout/Layout';
 
 import Header from '../components/Header/Header';
 import Features from '../components/Features/Features';
+import Video from '../components/Video/Video';
 import Steps from '../components/Steps/Steps';
 import Promo from '../components/Promo/Promo';
 import Footer from '../components/Footer/Footer';
@@ -18,6 +19,12 @@ const IndexPage = () => {
       <Header />
       <Layout>
         <Features data={BENEFITS} />
+        <Video
+          videoSrcURL={
+            'https://www.youtube-nocookie.com/embed/zyZAMR56mXY?modestbranding=1'
+          }
+          videoTitle={'Главные ошибки при выборе бюстгальтера'}
+        />
         <Features data={SAFETY} />
         <Steps />
         <Promo />
