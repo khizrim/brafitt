@@ -11,7 +11,7 @@
 }
 
 .header__link_side_left {
-  @apply md:justify-self-start md:order-1 flex-row-reverse md:flex-row;
+  @apply md:justify-self-start md:order-1;
 }
 
 .header__link_side_right {

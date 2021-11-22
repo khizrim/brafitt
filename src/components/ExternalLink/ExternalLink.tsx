@@ -9,14 +9,14 @@ const ExternalLink = ({
   return (
     <a
       className={`flex items-center gap-2 ${
-        iconPosition && iconPosition === 'end' ? 'flex-row-reverse' : 'flex-row'
+        iconPosition && iconPosition === 'end' ? 'flex-row' : 'md:flex-row-reverse'
       }`}
       href={url}
       target="_blank"
       rel="noreferrer"
     >
-      {text}
       {children}
+      {text}
     </a>
   );
 };
