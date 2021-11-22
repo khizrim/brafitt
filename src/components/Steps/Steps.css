@@ -6,6 +6,10 @@
   @apply grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-center;
 }
 
+.steps__title {
+  @apply mb-10
+}
+
 .steps__item {
   @apply flex flex-col max-w-xs items-center md:items-start;
 }

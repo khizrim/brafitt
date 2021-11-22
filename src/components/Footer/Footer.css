@@ -3,7 +3,7 @@
 }
 
 .footer__container {
-  @apply container flex flex-col items-center pt-6 pb-12 md:items-start;
+  @apply container flex flex-col items-center pt-10 pb-20 md:items-start;
 }
 
 .footer__content {

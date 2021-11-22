@@ -1,5 +1,5 @@
 .promo {
-  @apply py-12 flex flex-col text-center bg-beige-60 bg-opacity-25;
+  @apply flex flex-col text-center bg-beige-60 bg-opacity-25;
 }
 
 .promo__content {
