@@ -1,0 +1,7 @@
+.external-link {
+  @apply flex items-center gap-2 justify-center md:justify-start;
+}
+
+.external-link__icon_pos_end {
+  @apply md:order-1;
+}

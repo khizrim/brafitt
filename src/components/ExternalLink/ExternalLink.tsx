@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './ExternalLink.css';
+
 const ExternalLink = ({
   url,
   text,
@@ -7,15 +9,16 @@ const ExternalLink = ({
   children,
 }: ExternalLinkProps) => {
   return (
-    <a
-      className={`flex items-center gap-2 ${
-        iconPosition && iconPosition === 'end' ? 'flex-row' : 'md:flex-row-reverse'
-      }`}
-      href={url}
-      target="_blank"
-      rel="noreferrer"
-    >
-      {children}
+    <a className="external-link" href={url} target="_blank" rel="noreferrer">
+      {children && (
+        <span
+          className={`external-link__icon ${
+            iconPosition === 'end' ? 'external-link__icon_pos_end' : ''
+          }`}
+        >
+          {children}
+        </span>
+      )}
       {text}
     </a>
   );
