@@ -5,7 +5,7 @@ import './Section.css';
 const Section = ({ sectionTitle, children }: SectionProps) => {
   return (
     <section className={`${sectionTitle} section`}>
-      <div className="section__container">{children}</div>
+      <div className={`${sectionTitle + '__container'} section__container`}>{children}</div>
     </section>
   );
 };
