@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Feature.css';
+
 const Feature = ({ icon, caption }: FeatureProps) => {
   return (
     <div className="feature">
