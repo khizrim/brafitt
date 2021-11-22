@@ -45,7 +45,7 @@ export const BENEFITS = {
 
 
 export const SAFETY = {
-  title: 'Соблюдаем все меры безопасности',
+  title: 'Соблюдаем все меры безопасности',
   features: [
     {
       _id: 1,
