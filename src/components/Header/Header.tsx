@@ -17,9 +17,6 @@ const Header = () => {
             src="../../images/logo-v.png"
             alt="Brafitt"
             height={72}
-            placeholder="none"
-            backgroundColor="transparent"
-            layout="fixed"
           />
         </Link>
         <div className="header__link header__link_side_left">

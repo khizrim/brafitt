@@ -50,9 +50,6 @@ const Footer = () => {
               src="../../images/logo-h.png"
               alt="Brafitt"
               height={24}
-              placeholder="none"
-              backgroundColor="transparent"
-              layout="fixed"
             />
           </Link>
         </div>
