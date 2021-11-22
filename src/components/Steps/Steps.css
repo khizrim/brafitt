@@ -1,3 +1,6 @@
+.steps {
+  @apply bg-lightGray bg-opacity-5;
+}
 .steps__container {
   @apply text-center md:text-left;
 }
@@ -7,7 +10,7 @@
 }
 
 .steps__title {
-  @apply mb-10
+  @apply mb-10 text-black;
 }
 
 .steps__item {

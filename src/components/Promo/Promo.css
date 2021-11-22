@@ -1,5 +1,5 @@
 .promo {
-  @apply flex flex-col text-center bg-beige-60 bg-opacity-25;
+  @apply flex flex-col text-center;
 }
 
 .promo__content {
