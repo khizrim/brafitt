@@ -13,6 +13,7 @@ import Footer from '../components/Footer/Footer';
 
 import { BENEFITS, SAFETY } from '../utils/constants';
 import Slider from '../components/Slider/Slider';
+import Issues from '../components/Issues/Issues';
 
 const IndexPage = () => {
   return (
@@ -20,6 +21,7 @@ const IndexPage = () => {
       <Meta />
       <Header />
       <Layout>
+        <Issues />
         <Features data={BENEFITS} />
         <Slider />
         <About />
