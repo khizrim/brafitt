@@ -4,6 +4,7 @@ import Meta from '../components/Meta/Meta';
 import Layout from '../components/Layout/Layout';
 
 import Header from '../components/Header/Header';
+import About from '../components/About/About';
 import Features from '../components/Features/Features';
 import Video from '../components/Video/Video';
 import Steps from '../components/Steps/Steps';
@@ -18,11 +19,10 @@ const IndexPage = () => {
       <Meta />
       <Header />
       <Layout>
+        <About />
         <Features data={BENEFITS} />
         <Video
-          videoSrcID={
-            '6CloxkZC29E'
-          }
+          videoSrcID={'6CloxkZC29E'}
           videoTitle={'Главные ошибки при выборе бюстгальтера'}
         />
         <Features data={SAFETY} />
