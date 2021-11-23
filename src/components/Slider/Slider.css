@@ -1,0 +1,27 @@
+.slider {
+  @apply bg-lightGray bg-opacity-5;
+}
+
+.slider__title {
+  @apply text-center mb-10;
+}
+
+.slider__frame {
+  @apply max-w-4xl;
+}
+
+.slider__slide {
+  @apply grid md:grid-cols-2 gap-4 md:gap-8;
+}
+
+.slider__button {
+  @apply w-12 h-12 cursor-pointer text-beige-100;
+}
+
+.slider__image {
+  @apply max-h-60 md:max-h-full rounded-3xl;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -20px;
+}

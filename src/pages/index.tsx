@@ -12,6 +12,7 @@ import Promo from '../components/Promo/Promo';
 import Footer from '../components/Footer/Footer';
 
 import { BENEFITS, SAFETY } from '../utils/constants';
+import Slider from '../components/Slider/Slider';
 
 const IndexPage = () => {
   return (
@@ -19,8 +20,9 @@ const IndexPage = () => {
       <Meta />
       <Header />
       <Layout>
-        <About />
         <Features data={BENEFITS} />
+        <Slider />
+        <About />
         <Video
           videoSrcID={'6CloxkZC29E'}
           videoTitle={'Главные ошибки при выборе бюстгальтера'}
