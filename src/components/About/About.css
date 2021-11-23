@@ -1,0 +1,26 @@
+.about {
+  @apply bg-lightGray bg-opacity-5;
+}
+
+.about__container {
+  @apply grid max-w-5xl gap-10 md:grid-cols-2 justify-items-center;
+}
+
+.about__content {
+  @apply flex flex-col gap-8 max-w-md
+}
+
+.about__brafitter-name {
+  @apply mb-1;
+}
+
+.about__cta {
+  @apply flex flex-col gap-2
+}
+
+.about__image {
+  @apply flex justify-center pt-8 px-14 bg-ginger-60 overflow-hidden;
+
+  border-top-left-radius: 100px 100px;
+  border-bottom-right-radius: 200px 200px;
+}
