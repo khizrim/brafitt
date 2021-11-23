@@ -4,7 +4,7 @@ import Section from '../Section/Section';
 
 import './Video.css';
 
-const Video = ({ videoSrcURL, videoTitle }) => {
+const Video = ({ videoSrcID, videoTitle }) => {
   return (
     <Section sectionTitle="video">
       <h2 className="video__title">Главные ошибки <br /> при выборе бюстгальтера</h2>
@@ -17,7 +17,7 @@ const Video = ({ videoSrcURL, videoTitle }) => {
           className="video__player"
           width="100%"
           height="100%"
-          src={videoSrcURL}
+          src={'https://www.youtube-nocookie.com/embed/' + videoSrcID}
           title={videoTitle}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

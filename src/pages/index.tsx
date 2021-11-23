@@ -20,8 +20,8 @@ const IndexPage = () => {
       <Layout>
         <Features data={BENEFITS} />
         <Video
-          videoSrcURL={
-            'https://www.youtube-nocookie.com/embed/zyZAMR56mXY?modestbranding=1'
+          videoSrcID={
+            '6CloxkZC29E'
           }
           videoTitle={'Главные ошибки при выборе бюстгальтера'}
         />
