@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <Section sectionTitle="hero">
       <h1 className="hero__title">
-        Знаем всё о том, как должен сидеть{' '}
-        <span className="hero__title-highlight">бюстгальтер</span>
+        Знаем всё о том, как должен сидеть
+        <span className="hero__title-highlight"> бюстгальтер</span>
       </h1>
       <div className="hero__bottom">
         <p className="hero__text">
