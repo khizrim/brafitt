@@ -15,5 +15,7 @@
 }
 
 .issues__bullet {
-  @apply min-w-min h-5 mt-1 mr-3 text-beige-100;
+  @apply h-5 mt-1 mr-3 text-beige-100;
+
+  min-width: 1.25rem;
 }
