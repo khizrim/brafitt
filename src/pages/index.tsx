@@ -14,6 +14,7 @@ import Footer from '../components/Footer/Footer';
 import { BENEFITS, SAFETY } from '../utils/constants';
 import Slider from '../components/Slider/Slider';
 import Issues from '../components/Issues/Issues';
+import Hero from '../components/Hero/Hero';
 
 const IndexPage = () => {
   return (
@@ -21,6 +22,7 @@ const IndexPage = () => {
       <Meta />
       <Header />
       <Layout>
+        <Hero />
         <Issues />
         <Features data={BENEFITS} />
         <Slider />
