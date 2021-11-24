@@ -31,8 +31,8 @@ const IndexPage = () => {
           videoSrcID={'6CloxkZC29E'}
           videoTitle={'Главные ошибки при выборе бюстгальтера'}
         />
-        <Features data={SAFETY} />
         <Steps />
+        <Features data={SAFETY} />
         <Promo />
       </Layout>
       <Footer />
