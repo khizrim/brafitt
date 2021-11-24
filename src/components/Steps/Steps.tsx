@@ -14,7 +14,7 @@ const Steps = () => {
           <p className="steps__counter">1</p>
           <StaticImage
             className="steps__icon"
-            src="../../images/steps/step-1.png"
+            src="../../images/steps/step-1.webp"
             alt="Шаг 1"
             width={80}
             placeholder="none"
@@ -30,7 +30,7 @@ const Steps = () => {
           <p className="steps__counter">2</p>
           <StaticImage
             className="steps__icon"
-            src="../../images/steps/step-2.png"
+            src="../../images/steps/step-2.webp"
             alt="Шаг 2"
             width={80}
             placeholder="none"
@@ -46,7 +46,7 @@ const Steps = () => {
           <p className="steps__counter">3</p>
           <StaticImage
             className="steps__icon"
-            src="../../images/steps/step-3.png"
+            src="../../images/steps/step-3.webp"
             alt="Шаг 3"
             width={80}
             placeholder="none"
@@ -62,7 +62,7 @@ const Steps = () => {
           <p className="steps__counter">4</p>
           <StaticImage
             className="steps__icon"
-            src="../../images/steps/step-4.png"
+            src="../../images/steps/step-4.webp"
             alt="Шаг 4"
             width={80}
             placeholder="none"
@@ -78,7 +78,7 @@ const Steps = () => {
           <p className="steps__counter">5</p>
           <StaticImage
             className="steps__icon"
-            src="../../images/steps/step-5.png"
+            src="../../images/steps/step-5.webp"
             alt="Шаг 5"
             width={80}
             placeholder="none"

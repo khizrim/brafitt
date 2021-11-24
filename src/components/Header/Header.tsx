@@ -14,7 +14,7 @@ const Header = () => {
       <div className="header__container">
         <Link className="header__logo" to="/">
           <StaticImage
-            src="../../images/logo-v.png"
+            src="../../images/logo-v.webp"
             alt="Brafitt"
             height={72}
           />

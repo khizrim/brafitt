@@ -9,7 +9,7 @@ export const BENEFITS = {
       _id: 1,
       icon: (
         <StaticImage
-          src="../images/benefits/benefits-1.png"
+          src="../images/benefits/benefits-1.webp"
           alt={''}
           height={96}
         />
@@ -20,7 +20,7 @@ export const BENEFITS = {
       _id: 2,
       icon: (
         <StaticImage
-          src="../images/benefits/benefits-2.png"
+          src="../images/benefits/benefits-2.webp"
           alt={''}
           height={96}
         />
@@ -32,7 +32,7 @@ export const BENEFITS = {
       _id: 3,
       icon: (
         <StaticImage
-          src="../images/benefits/benefits-3.png"
+          src="../images/benefits/benefits-3.webp"
           alt={''}
           height={96}
         />
@@ -51,7 +51,7 @@ export const SAFETY = {
       _id: 1,
       icon: (
         <StaticImage
-          src="../images/safety/safety-1.png"
+          src="../images/safety/safety-1.webp"
           alt={''}
           height={96}
         />
@@ -62,7 +62,7 @@ export const SAFETY = {
       _id: 2,
       icon: (
         <StaticImage
-          src="../images/safety/safety-2.png"
+          src="../images/safety/safety-2.webp"
           alt={''}
           height={96}
         />
@@ -74,7 +74,7 @@ export const SAFETY = {
       _id: 3,
       icon: (
         <StaticImage
-          src="../images/safety/safety-3.png"
+          src="../images/safety/safety-3.webp"
           alt={''}
           height={96}
         />

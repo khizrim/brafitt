@@ -26,7 +26,7 @@ const About = () => {
       </div>
       <div className="about__image">
         <StaticImage
-          src="../../images/brafitter.png"
+          src="../../images/brafitter.webp"
           alt={'Ниса Сантемирова'}
         />
       </div>

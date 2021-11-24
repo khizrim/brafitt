@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <Link className="footer__logo" to="#top">
             <StaticImage
-              src="../../images/logo-h.png"
+              src="../../images/logo-h.webp"
               alt="Brafitt"
               height={24}
             />

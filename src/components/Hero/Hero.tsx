@@ -21,13 +21,13 @@ const Hero = () => {
         <div className="hero__image-container">
           <StaticImage
             className="hero__image"
-            src="../../images/hero.png"
+            src="../../images/hero.webp"
             alt="Первый брафиттинг в Дагестане"
           />
         </div>
         <StaticImage
           className="hero__ellipse"
-          src="../../images/ellipse.png"
+          src="../../images/ellipse.webp"
           alt="Эллипс"
         />
       </div>
