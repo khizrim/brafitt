@@ -49,7 +49,7 @@ const Issues = () => {
       </div>
       <div className="issues__image">
         <StaticImage
-          src="../../images/issues.png"
+          src="../../images/issues.webp"
           alt="Какие проблемы решает брафиттинг"
         />
       </div>
