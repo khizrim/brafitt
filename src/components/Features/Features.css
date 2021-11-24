@@ -1,3 +1,7 @@
+.features {
+  @apply bg-lightGray bg-opacity-5;
+}
+
 .features__container {
   @apply grid text-center;
 }
