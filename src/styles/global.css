@@ -6,7 +6,7 @@
 
 @layer base {
   h1 {
-    @apply text-lg text-center md:text-xl lg:text-xxl lg:text-left;
+    @apply text-lg text-center sm:text-xl xl:text-xxl lg:text-left;
   }
 
   h2 {
