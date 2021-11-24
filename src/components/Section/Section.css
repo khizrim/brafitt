@@ -1,0 +1,3 @@
+.section__container {
+  @apply container py-16 md:py-24;
+}

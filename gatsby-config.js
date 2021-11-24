@@ -6,25 +6,34 @@ module.exports = {
       'Первый в Дагестане брафиттинг-сервис, который помогает правильно подобрать бельё, избавиться от проблем, связанных с неправильной посадкой и учит, как избежать ошибок в дальнейшем.',
   },
   plugins: [
-    "gatsby-plugin-image",
+    'gatsby-plugin-image',
     `gatsby-plugin-postcss`,
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/icon.png",
+        icon: 'src/images/icon.webp',
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-plugin-sharp`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        defaults: {
+          quality: 100,
+          placeholder: `none`,
+          backgroundColor: `transparent`,
+        },
       },
-      __key: "images",
+    },
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: './src/images/',
+      },
+      __key: 'images',
     },
   ],
 };

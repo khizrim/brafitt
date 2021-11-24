@@ -1,0 +1,31 @@
+.footer {
+  @apply flex flex-shrink-0 bg-gray bg-opacity-5 text-lightGray;
+}
+
+.footer__container {
+  @apply container flex flex-col items-center pt-10 pb-20 md:items-start;
+}
+
+.footer__content {
+  @apply grid gap-8 justify-items-center items-center md:grid-cols-2 md:items-start md:w-full md:justify-items-start;
+}
+
+.footer__nav {
+  @apply text-center grid gap-5 md:order-1 md:grid-cols-2 md:text-left;
+}
+
+.footer__nav-title {
+  @apply font-medium mb-3;
+}
+
+.footer__nav-item {
+  @apply mb-2 underline;
+}
+
+.footer__logo {
+  @apply my-6 md:my-0;
+}
+
+.footer__copyright {
+  @apply text-sm;
+}

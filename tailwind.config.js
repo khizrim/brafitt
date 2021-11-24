@@ -23,8 +23,9 @@ module.exports = {
     fontSize: {
       sm: ['14px', '20px'],
       base: ['16px', '24px'],
-      md: ['24px', '36px'],
-      lg: ['36px', '48px'],
+      main: ['18px', '28px'],
+      md: ['24px', '30px'],
+      lg: ['36px', '42px'],
       xl: ['72px', '84px'],
       xxl: ['122px', '122px'],
     },
@@ -33,6 +34,7 @@ module.exports = {
       current: 'currentColor',
       white: '#fff',
       black: '#000',
+      lightGray: '#909090',
       gray: '#46494a',
       green: {
         60: '#8bb49c',
@@ -59,8 +61,7 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {
-    },
+    extend: {},
   },
   plugins: [],
 };

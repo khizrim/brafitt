@@ -1,0 +1,7 @@
+.feature {
+  @apply max-w-xs;
+}
+
+.feature__caption {
+  @apply mt-3;
+}

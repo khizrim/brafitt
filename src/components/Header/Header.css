@@ -1,0 +1,23 @@
+.header__container {
+  @apply container grid gap-2 py-6 justify-items-center md:grid-cols-3 md:items-end;
+}
+
+.header__logo {
+  @apply mb-6 md:order-2 md:mb-1 hover:opacity-80 transition-all
+}
+
+.header__link {
+  @apply flex items-center cursor-pointer group gap-2 underline hover:text-green-100 transition-all;
+}
+
+.header__link_side_left {
+  @apply md:justify-self-start md:order-1;
+}
+
+.header__link_side_right {
+  @apply md:justify-self-end md:order-3;
+}
+
+.header__link-icon {
+  @apply w-5 h-5 text-green-100;
+}

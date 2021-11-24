@@ -1,0 +1,15 @@
+.features {
+  @apply bg-lightGray bg-opacity-5;
+}
+
+.features__container {
+  @apply grid text-center;
+}
+
+.features__title {
+  @apply mb-10
+}
+
+.features__list {
+  @apply grid gap-8 md:grid-cols-3 justify-center;
+}

@@ -1,0 +1,15 @@
+.promo {
+  @apply flex flex-col text-center;
+}
+
+.promo__content {
+  @apply max-w-xl mx-auto;
+}
+
+.promo__title {
+  @apply mb-2;
+}
+
+.promo__subtitle {
+  @apply mb-6;
+}

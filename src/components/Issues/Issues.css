@@ -1,0 +1,21 @@
+.issues__container {
+  @apply grid justify-items-center sm:grid-cols-2 gap-y-8 md:justify-items-start;
+}
+
+.issues__content {
+  @apply max-w-sm;
+}
+
+.issues__title {
+  @apply text-center sm:text-left;
+}
+
+.issues__item {
+  @apply flex items-start mb-3 px-3 sm:pl-0 sm:pr-6;
+}
+
+.issues__bullet {
+  @apply h-5 mt-1 mr-3 text-beige-100;
+
+  min-width: 1.25rem;
+}

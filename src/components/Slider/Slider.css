@@ -1,0 +1,31 @@
+.slider__title {
+  @apply text-center mb-10;
+}
+
+.slider__frame {
+  @apply flex items-center max-w-4xl mx-auto;
+}
+
+.slider__slide {
+  @apply grid md:grid-cols-2 gap-4 md:gap-3;
+}
+
+.slider__button {
+  @apply hidden sm:block w-24 mx-3 cursor-pointer text-beige-100;
+}
+
+.slider__image {
+  @apply max-h-56 md:max-h-screen rounded-xl;
+}
+
+.swiper {
+  padding-bottom: 35px;
+}
+.swiper > .swiper-pagination {
+    position: absolute;
+    bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-beige-100
+}
