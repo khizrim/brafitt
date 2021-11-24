@@ -37,36 +37,36 @@ const Slider = () => {
           <SwiperSlide className="slider__slide">
             <StaticImage
               className="slider__image"
-              src={'../../images/slider/before-1.jpg'}
+              src={'../../images/slider/before-1.webp'}
               alt={'До'}
             />
             <StaticImage
               className="slider__image"
-              src={'../../images/slider/after-1.jpg'}
+              src={'../../images/slider/after-1.webp'}
               alt={'После'}
             />
           </SwiperSlide>
           <SwiperSlide className="slider__slide">
             <StaticImage
               className="slider__image"
-              src={'../../images/slider/before-2.jpg'}
+              src={'../../images/slider/before-2.webp'}
               alt={'До'}
             />
             <StaticImage
               className="slider__image"
-              src={'../../images/slider/after-2.jpg'}
+              src={'../../images/slider/after-2.webp'}
               alt={'После'}
             />
           </SwiperSlide>
           <SwiperSlide className="slider__slide">
             <StaticImage
               className="slider__image"
-              src={'../../images/slider/before-3.jpg'}
+              src={'../../images/slider/before-3.webp'}
               alt={'До'}
             />
             <StaticImage
               className="slider__image"
-              src={'../../images/slider/after-3.jpg'}
+              src={'../../images/slider/after-3.webp'}
               alt={'После'}
             />
           </SwiperSlide>
