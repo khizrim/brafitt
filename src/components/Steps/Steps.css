@@ -1,7 +1,3 @@
-/* .steps {
-  @apply bg-lightGray bg-opacity-5;
-} */
-
 .steps__container {
   @apply text-center md:text-left;
 }
