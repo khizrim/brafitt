@@ -17,6 +17,9 @@
 .about__image {
   @apply flex justify-center pt-8 px-14 bg-ginger-60 overflow-hidden;
 
-  border-top-left-radius: 100px 100px;
-  border-bottom-right-radius: 200px 200px;
+  border-radius: 150px 0 150px 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
 }
