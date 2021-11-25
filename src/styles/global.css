@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('../fonts/fonts.css');
+@font-face {
+  font-weight: 400;
+  font-family: 'TT Hazelnuts';
+  src: url('../fonts/TTHazelnuts-Regular.woff2') format('woff2'),
+    url('../fonts/TTHazelnuts-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'TT Hazelnuts';
+  src: url('../fonts/TTHazelnuts-Medium.woff') format('woff2'),
+    url('../fonts/TTHazelnuts-Medium.woff') format('woff');
+}
 
 @layer base {
   h1 {
