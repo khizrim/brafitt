@@ -1,5 +1,5 @@
 .footer {
-  @apply flex flex-shrink-0 bg-gray bg-opacity-5 text-lightGray;
+  @apply flex flex-shrink-0 bg-gray bg-opacity-5 text-gray;
 }
 
 .footer__container {
