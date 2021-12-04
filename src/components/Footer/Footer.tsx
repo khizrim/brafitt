@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
+import logoSecond from '../../images/logo-h.svg';
 
 import ExternalLink from '../ExternalLink/ExternalLink';
 
@@ -46,11 +46,7 @@ const Footer = () => {
             </div>
           </div>
           <Link className="footer__logo" to="#top">
-            <StaticImage
-              src="../../images/logo-h.webp"
-              alt="Brafitt"
-              height={24}
-            />
+            <img src={logoSecond} alt="Brafitt" />
           </Link>
         </div>
         <p className="footer__copyright">
