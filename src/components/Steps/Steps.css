@@ -15,7 +15,7 @@
 }
 
 .steps__icon {
-  @apply my-3
+  @apply w-24 my-3
 }
 
 .steps__counter {

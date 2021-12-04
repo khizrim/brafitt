@@ -5,14 +5,14 @@ import './Feature.css';
 const Feature = ({ icon, caption }: FeatureProps) => {
   return (
     <div className="feature">
-      {icon}
+      <img className="feature__icon" src={icon} alt="" />
       <p className="feature__caption">{caption}</p>
     </div>
   );
 };
 
 type FeatureProps = {
-  icon: JSX.Element;
+  icon: string;
   caption: string;
 };
 

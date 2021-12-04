@@ -31,7 +31,7 @@ type FeaturesProps = {
     subtitle?: string;
     features: Array<{
       _id: number;
-      icon: JSX.Element;
+      icon: string;
       caption: string;
     }>;
   };

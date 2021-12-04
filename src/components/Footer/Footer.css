@@ -23,7 +23,7 @@
 }
 
 .footer__logo {
-  @apply my-6 md:my-0;
+  @apply w-60 my-6 md:my-0;
 }
 
 .footer__copyright {
