@@ -1,5 +1,9 @@
 .feature {
-  @apply max-w-xs;
+  @apply flex flex-col items-center max-w-xs;
+}
+
+.feature__icon {
+  @apply h-20;
 }
 
 .feature__caption {

@@ -3,7 +3,7 @@
 }
 
 .header__logo {
-  @apply mb-6 md:order-2 md:mb-1 hover:opacity-80 transition-all
+  @apply w-48 mb-6 md:order-2 md:mb-1 hover:opacity-80 transition-all
 }
 
 .header__link {
